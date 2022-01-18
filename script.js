@@ -35,7 +35,7 @@ if (navigator.geolocation) {
 		loc.textContent = data.name + "," + data.sys.country;
 		let icon1 = data.weather[0].icon;
 		icon.innerHTML =
-			`<img src="icons/cloudy-day-3.html" style= 'height:10rem'/>`;
+			`<img src="icons/cloudy-day-3.svg" style= 'height:10rem'/>`;
 		});
 	});
 }
